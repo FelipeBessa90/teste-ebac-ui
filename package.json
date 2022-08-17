@@ -17,4 +17,8 @@
     "url": "https://github.com/FelipeBessa90/teste-ebac-ui/issues"
   },
   "homepage": "https://github.com/FelipeBessa90/teste-ebac-ui#readme"
+  "homepage": "https://github.com/FelipeBessa90/teste-ebac-ui#readme",
+  "dependencies": {
+    "@faker-js/faker": "^7.4.0"
+  }
 }
