@@ -16,9 +16,12 @@
   "bugs": {
     "url": "https://github.com/FelipeBessa90/teste-ebac-ui/issues"
   },
-  "homepage": "https://github.com/FelipeBessa90/teste-ebac-ui#readme"
   "homepage": "https://github.com/FelipeBessa90/teste-ebac-ui#readme",
+  "devDependencies": {
+    "cypress": "^10.3.1"
+  },
   "dependencies": {
-    "@faker-js/faker": "^7.4.0"
+    "chance": "^1.1.8",
+    "faker-br": "^0.4.1"
   }
 }
