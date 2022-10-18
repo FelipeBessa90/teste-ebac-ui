@@ -3,18 +3,18 @@
 context('Funcionalidade pagina de produtos', () => {
 
     beforeEach(() => {
-        cy.visit('http://lojaebac.ebaconline.art.br/produtos/')
+        cy.visit('produtos')
     });
 
     it('Deve selecionar um produto da lista', () => {
-        var quantidade = 5
+        var quantidade = 1
             cy.get('[class="product-block grid"]')
             //.first()
-            .eq(2)
+            .eq(3)
             .click()
-            cy.get('.button-variable-item-33')
+            cy.get('.button-variable-item-S')
                 .click()
-            cy.get('.button-variable-item-Green')   
+            cy.get('.button-variable-item-Green')  
                 .click()
             cy.get('.input-text')
                 .clear()
